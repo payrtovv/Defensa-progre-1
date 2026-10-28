@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ============ LIVE BAR ============ -->
+    <div class="live-bar">
+      <div class="live-bar__info">
+        <!-- ICONO: botón play circular -->
+        <div>
+          <p class="live-bar__label">Live now</p>
+          <p class="live-bar__show">The Repair Shop</p>
+        </div>
+        <button class="live-bar__play" aria-label="Play live"></button>
+      </div>
+      <div class="live-bar__stream">
+        <span class="live-bar__stream-text">Stream Now</span>
+        <!-- LOGO: servicio de streaming (placeholder) -->
+        <img src="IMAGEdissco.png" alt="Streaming logo" />
+      </div>
+    </div>
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="header">
+      <!-- LOGO: marca principal (placeholder) -->
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Shows</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">DNews</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Nature</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Exploration</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">Space</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Science</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Motor</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Schedule</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">More</a></li>
+        </ul>
+      </nav>
+
+      <!-- ICONO: lupa de búsqueda -->
+      <button class="header__search" aria-label="Search"></button>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <article>
+          <a href="#" class="header__logo">
+            <img src="logo.png" alt="Logo" />
+          </a>
+          <!-- IMAGEN: destacada principal -->
+          <a class="abrirLB" href="#Ventana">
+          <img class="hero__main-img" src="IMAGE1.png" alt="Featured story" />
+          </a>
+          <p class="hero__category">Exploration</p>
+          <h2 class="hero__main-title">6 Global Christmas Traditions</h2>
+        </article>
+
+        <div class="hero__side">
+          <article class="hero__item">
+            <!-- IMAGEN: miniatura -->
+            <img class="hero__item-img" src="IMAGE2.png" alt="" />
+            <div class="hero__item-body">
+              <p class="hero__category">Alaska: The Last Frontier</p>
+              <h3 class="hero__item-title">
+                Learn How to Make Holiday Beet Cupcakes, Kilcher Style
+              </h3>
+            </div>
+          </article>
+
+          <article class="hero__item">
+            <img class="hero__item-img" src="IMAGE3.png" alt="" />
+            <div class="hero__item-body">
+              <p class="hero__category">Nature</p>
+              <h3 class="hero__item-title">
+                Winter's Hardest Working Mammals – Reindeer!
+              </h3>
+            </div>
+          </article>
+
+          <article class="hero__item">
+            <img class="hero__item-img" src="IMAGE4.png" alt="" />
+            <div class="hero__item-body">
+              <p class="hero__category">Science</p>
+              <h3 class="hero__item-title">
+                Time Dilation, Special Relativity, and Santa's Delivery Schedule
+              </h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ TRENDING VIDEOS (fondo oscuro) ============ -->
+      <section class="section section--dark">
+        <h2 class="section__title">Trending Videos</h2>
+        <div class="grid">
+            <article class="grid__video1">
+              <div class="">
+                <img
+                  class=""
+                  src="video2.png"
+                  alt=""
+                />
+                <!-- ICONO: play dentro del botón -->
+                <button class="">
+                  Watch Now <span class=""></span>
+                </button>
+              </div>
+              <h3 class="card__title">
+                MOONSHINERS Holiday Cocktail: Cherry Moon-Mosa
+              </h3>
+            </article>
+
+            <article class="grid__video2">
+              <div class="">
+                <img
+                  class=""
+                  src="video2.png"
+                  alt=""
+                />
+                <!-- ICONO: play dentro del botón -->
+                <button class="">
+                  Watch Now <span class=""></span>
+                </button>
+              </div>
+              <h3 class="card__title">
+                MOONSHINERS Holiday Cocktail: Cherry Moon-Mosa
+              </h3>
+            </article>
+
+            <article class="grid__video3">
+              <div class="">
+                <img
+                  class=""
+                  src="video2.png"
+                  alt=""
+                />
+                <!-- ICONO: play dentro del botón -->
+                <button class="">
+                  Watch Now <span class=""></span>
+                </button>
+              </div>
+              <h3 class="card__title">
+                MOONSHINERS Holiday Cocktail: Cherry Moon-Mosa
+              </h3>
+            </article>  
+          </div>
+          <!-- ICONO: flecha siguiente -->
+          <button class="carousel__next" aria-label="Next"></button>
+        </div>
+      </section>
+
+      <!-- ============ MORE OF WHAT YOU LOVE ============ -->
+      <section class="section">
+        <h2 class="section__title">More of What You Love</h2>
+        <div class="carousel carousel--small">
+          <div class="carousel__track">
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE1.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Moonshiners' Mike Cockrell Ties the Knot After 7-Year Engagement
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE2.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Warm Hazelnut Cocktail Perfect for the Holiday Season
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE3.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                The Mystery at Blind Frog Ranch Returns with More Secrets
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE4.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                David Dobrik Explores Dubai For The First Time Ever
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE1.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Escape the Holiday Chaos with this Surprisingly Soothing Antique
+                Restoration Show
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE2.png"
+                alt=""
+              />
+              <h3 class="card__title">Paws U...</h3>
+            </article>
+          </div>
+          <button class="carousel__next" aria-label="Next"></button>
+        </div>
+      </section>
+
+      <!-- ============ CATCH UP ============ -->
+      
+
+      <!-- ============ LATEST STORIES (grid 3 columnas) ============ -->
+      <section class="section">
+        <h2 class="section__title">Latest Stories</h2>
+        <div class="stories">
+          <article class="story">
+            <img class="story__img" src="IMAGE1.png" alt="" />
+            <h3 class="story__title">
+              Kwanzaa: The African Celebration of Unity and Culture
+            </h3>
+            <p class="story__author">By: Lucy Sherriff</p>
+          </article>
+          <article class="story">
+            <a class="abrirLB" href="#Ventana">
+              <img class="story__img" src="IMAGE1.png" alt="" />
+            </a>
+            <div id="Ventana">
+              <div class="contenido">
+                <a class="cerrarLB" href="#">Cerrar X </a>
+
+                <img src="IMAGE1.png" width="401" height="301" alt="" />
+              </div>
+            </div>
+            <h3 class="story__title">
+              Juan Ibarra Names his New Baby in Honor of an Old Friend
+            </h3>
+            <p class="story__author">By: Discovery</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE2.png" alt="" />
+            <h3 class="story__title">
+              Moonshiners' Mike Cockrell Ties the Knot After 7-Year Engagement
+            </h3>
+            <p class="story__author">By: Discovery</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE3.png" alt="" />
+            <h3 class="story__title">
+              Warm Hazelnut Cocktail Perfect for the Holiday Season
+            </h3>
+            <p class="story__author">By: Discovery</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE4.png" alt="" />
+            <h3 class="story__title">
+              Time Dilation, Special Relativity, and Santa's Delivery Schedule
+            </h3>
+            <p class="story__author">By: Paul M. Sutter</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE1.png" alt="" />
+            <h3 class="story__title">
+              Meet the Storytellers Sharing Exploration with the World
+            </h3>
+            <p class="story__author">By: The Explorers Club</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE3.png" alt="" />
+            <h3 class="story__title">
+              Sea Otters Play and Grow at Georgia Aquarium
+            </h3>
+            <p class="story__author">By: Georgia Aquarium</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE3.png" alt="" />
+            <h3 class="story__title">
+              Get in the Holiday Spirit in this Winter Waterland
+            </h3>
+            <p class="story__author">By: Georgia Aquarium</p>
+          </article>
+          <article class="story">
+            <img class="story__img" src="IMAGE4.png" alt="" />
+            <h3 class="story__title">
+              Kick the New Year into High Gear with 3 Back-To-Back STREET
+              OUTLAWS Premieres
+            </h3>
+            <p class="story__author">By: Taylor Geib</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ NEWSLETTER ============ -->
+      <section class="newsletter">
+        <!-- Aquí iría el formulario de suscripción (opcional) -->
+        <a class="newsletter__policy" href="#">Privacy Policy</a>
+        <button class="newsletter__btn" type="button">Sign Up</button>
+      </section>
+
+      <!-- ============ HERE FOR THE HOLIDAYS ============ -->
+      <section class="section">
+        <h2 class="section__title">Here for the Holidays</h2>
+        <div class="carousel carousel--small">
+          <div class="carousel__track">
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE1.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Winter's Hardest Working Mammals – Reindeer!
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE2.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Visit Santa's Hometown in Finnish Lapland
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE3.png"
+                alt=""
+              />
+              <h3 class="card__title">Winter in the Desert</h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE4.png"
+                alt=""
+              />
+              <h3 class="card__title">
+                Evergreen Trees: Not Just for Christmas
+              </h3>
+            </article>
+            <article class="card card--small">
+              <img
+                class="card__img card__img--square"
+                src="IMAGE1.png"
+                alt=""
+              />
+              <h3 class="card__title">6 Global Christmas Traditions</h3>
+            </article>
+          </div>
+          <button class="carousel__next" aria-label="Next"></button>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <ul class="footer__list">
+        <li><a class="footer__link" href="#">Site Map</a></li>
+        <li><a class="footer__link" href="#">Visitor Agreement</a></li>
+        <li><a class="footer__link" href="#">Privacy Notice</a></li>
+        <li><a class="footer__link" href="#">AdChoices</a></li>
+        <li><a class="footer__link" href="#">About</a></li>
+        <li><a class="footer__link" href="#">Advertise</a></li>
+        <li><a class="footer__link" href="#">Careers</a></li>
+        <li><a class="footer__link" href="#">TV Ratings</a></li>
+        <li><a class="footer__link" href="#">Help</a></li>
+        <li><a class="footer__link" href="#">California Privacy Notice</a></li>
+        <li><a class="footer__link" href="#">CA Do Not Sell My Info</a></li>
+        <li><a class="footer__link" href="#">Accessibility</a></li>
+      </ul>
+    </footer>
+    <div class="legal">
+      <p class="legal__text">
+        The Discovery Family of Networks \ © 2021 Discovery or its subsidiaries
+        and affiliates. All rights reserved.
+      </p>
+    </div>
+  </body>
+</html>
